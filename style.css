@@ -25,6 +25,32 @@ body {
     opacity: 1;
   }
 
+  .filter-buttons {
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+
+  .filter-btn {
+    padding: 8px 20px;
+    border: none;
+    border-radius: 20px;
+    background-color: #00775e;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+
+  .filter-btn:hover {
+    background-color: #005a47;
+    transform: scale(1.05);
+  }
+
+  .filter-btn.active {
+    background-color: #0a0a23;
+  }
+
   .team {
     display: flex;
     flex-wrap: wrap;
